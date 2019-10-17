@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hurricane Database</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+  integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+  crossorigin=""/>
+
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/introjs.min.css') }}"/>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+  integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+  crossorigin=""></script>
+
+  
+</head>
+
+<body>
+  <!-- The div where we will inject our map -->
+  <div id="top" style="width:1200px"><image style="width:100%;height:100px" src="static/images/giphy.gif"></image>
+  <br><h1 style="color:blue">Science Joe's Hurricane Page</h1>
+  
+  </div>
+  <div class="grid">
+    
+    <div id="map" class="stamp stamp1" data-step="2" data-intro="Plots of all the storm tracks for the given <b>YEAR</b> or <b>single storms</b> will show up!"></div>
+    
+      <div  data-step="1" data-intro="Start by Selecting <b>Year</b> or a <b>Retired Storm</b>" class="grid-item"> 
+         <a class="btn btn-large btn-success" href="javascript:void(0);" onclick="javascript:introJs().start();">Show me how</a>    
+         <div id="selector"><b>Year</b><br></b></div>
+         <p> <b>OR</b> </p><p></p>
+         <div id="retired"><b>Retired Storms</b></div>
+      </div>
+    
+    <div style="background: lightgoldenrodyellow" data-step="3" data-intro="A list of all storms for that year will be displayed here!.  You can then <b>click</b> on a storm to see its track and other info or simply <b>mouse over</b> a name to see the track <b>highlighted</b>" class="grid-item grid-item--width2 grid-item--height2" id="stormlist"><h4>List of Storms<br> will be placed here</h4></div>
+    <div class="grid-item grid-item--widthf" style="border-color: white;opacity: 0.0"></div>
+    <div class="stamp stamp2" id="stats" data-step="4" data-intro="Annual counts of <b>Total Storms, Hurricanes and Tropical Storms</b> will be plotter here, or if viewing <b>individual</b> storm tracks, this will show the wind speed and pressure for each point along the track">
+        <div id="rowselect">
+            <select class="stats"></select>
+          </div>  
+      <div class="plot"></div>
+      <div id="hoverinfo" style="margin-left:80px;"></div>
+    </div>
+    <div id="info" class="grid-item grid-item--width3 grid-item--height3" style="background: lightblue" data-step="5" data-intro="<b>Summary statistics</b> for the chosen year will be displayer here"><h4>Stats will be placed here</h4></h4></div>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/retiredstorms.js') }}"></script>  
+  <script type="text/javascript" src="{{ url_for('static', filename='js/intro.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/draggabilly.pkgd.min.js') }}"></script>
+  <script type="text/javascript" src="{{ url_for('static', filename='js/packery.pkgd.min.js') }}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <!-- API key -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/config.js') }}"></script>
+  <!-- Our JS -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
+</body>
+</html>
