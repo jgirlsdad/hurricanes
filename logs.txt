@@ -1,0 +1,100 @@
+2019-10-19T23:09:58.620933+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-20T05:09:50.196399+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-20T05:09:57.135999+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-20T05:09:59.521766+00:00 heroku[web.1]: Process exited with status 127
+2019-10-20T05:09:59.568849+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-20T05:09:59.43422+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-20T11:01:19.807632+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-20T11:01:25.43018+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-20T11:01:26.990845+00:00 heroku[web.1]: Process exited with status 127
+2019-10-20T11:01:27.037716+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-20T11:01:26.954376+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-20T16:45:27.657139+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-20T16:45:33.335828+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-20T16:45:35.095331+00:00 heroku[web.1]: Process exited with status 127
+2019-10-20T16:45:35.14137+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-20T16:45:35.049579+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-20T22:29:36.13646+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-20T22:29:43.656895+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-20T22:29:46.230844+00:00 heroku[web.1]: Process exited with status 127
+2019-10-20T22:29:46.278154+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-20T22:29:46.155445+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-21T04:17:47.085068+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-21T04:17:52.911262+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-21T04:17:55.138242+00:00 heroku[web.1]: Process exited with status 127
+2019-10-21T04:17:55.184923+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-21T04:17:55.082329+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-21T09:54:30.392839+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-21T09:54:36.230859+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-21T09:54:37.837995+00:00 heroku[web.1]: Process exited with status 127
+2019-10-21T09:54:37.88499+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-21T09:54:37.79852+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-21T15:31:09.550809+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-21T15:31:16.597399+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-21T15:31:18.684508+00:00 heroku[web.1]: Process exited with status 127
+2019-10-21T15:31:18.720294+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-21T15:31:18.636966+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-21T20:59:41.726611+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-21T20:59:47.372351+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-21T20:59:49.132578+00:00 heroku[web.1]: Process exited with status 127
+2019-10-21T20:59:49.178458+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-21T20:59:49.084148+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-22T02:32:14.318517+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-22T02:32:20.516381+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-22T02:32:23.215422+00:00 heroku[web.1]: Process exited with status 127
+2019-10-22T02:32:23.271032+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-22T02:32:23.115941+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-22T08:20:10.226314+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-22T08:20:16.933414+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-22T08:20:18.933742+00:00 heroku[web.1]: Process exited with status 127
+2019-10-22T08:20:18.979163+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-22T08:20:18.876429+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-22T13:48:21.605533+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-22T13:48:28.327708+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-22T13:48:29.973726+00:00 heroku[web.1]: Process exited with status 127
+2019-10-22T13:48:30.011632+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-22T13:48:29.919823+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-22T19:16:26.264716+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-22T19:16:34.383164+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-22T19:16:36.650626+00:00 heroku[web.1]: Process exited with status 127
+2019-10-22T19:16:36.698025+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-22T19:16:36.574767+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-23T00:52:27.610953+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-23T00:52:34.505477+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-23T00:52:36.644937+00:00 heroku[web.1]: Process exited with status 127
+2019-10-23T00:52:36.697416+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-23T00:52:36.58481+00:00 app[web.1]: bash: gunicorn: command not found
+2019-10-23T22:57:07+00:00 app[api]: Build started by user jgirlsdad@comcast.net
+2019-10-23T22:57:16+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/747839e0-2fe5-40a7-b3b9-7ad5315fb3b9/activity/builds/725d1c6e-1633-4e2d-8204-87a4b412a682
+2019-10-23T22:59:13+00:00 app[api]: Build started by user jgirlsdad@comcast.net
+2019-10-23T22:59:24+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/747839e0-2fe5-40a7-b3b9-7ad5315fb3b9/activity/builds/6ae10c46-a737-447e-b5d9-42d76246fcf4
+2019-10-23T23:09:40+00:00 app[api]: Build started by user jgirlsdad@comcast.net
+2019-10-23T23:09:53+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/747839e0-2fe5-40a7-b3b9-7ad5315fb3b9/activity/builds/7c97a422-105a-47bd-aa02-cde87a1fd248
+2019-10-23T23:46:01+00:00 app[api]: Build started by user jgirlsdad@comcast.net
+2019-10-23T23:46:10+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/747839e0-2fe5-40a7-b3b9-7ad5315fb3b9/activity/builds/eaaf52b2-3a0b-4e77-ae27-42539b4dc68f
+2019-10-23T23:46:41+00:00 app[api]: Build started by user jgirlsdad@comcast.net
+2019-10-23T23:47:09.635097+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-23T23:47:09.17489+00:00 app[api]: Release v5 created by user jgirlsdad@comcast.net
+2019-10-23T23:47:09.17489+00:00 app[api]: Deploy 6a14d662 by user jgirlsdad@comcast.net
+2019-10-23T23:47:15.043454+00:00 heroku[web.1]: Starting process with command `gunicorn app: app`
+2019-10-23T23:47:16.969075+00:00 heroku[web.1]: Process exited with status 3
+2019-10-23T23:47:17.012137+00:00 heroku[web.1]: State changed from starting to crashed
+2019-10-23T23:47:17.015496+00:00 heroku[web.1]: State changed from crashed to starting
+2019-10-23T23:47:16.827333+00:00 app[web.1]: [2019-10-23 23:47:16 +0000] [4] [INFO] Starting gunicorn 19.9.0
+2019-10-23T23:47:16.828218+00:00 app[web.1]: [2019-10-23 23:47:16 +0000] [4] [INFO] Listening at: http://0.0.0.0:58467 (4)
+2019-10-23T23:47:16.82839+00:00 app[web.1]: [2019-10-23 23:47:16 +0000] [4] [INFO] Using worker: sync
+2019-10-23T23:47:16.834106+00:00 app[web.1]: [2019-10-23 23:47:16 +0000] [10] [INFO] Booting worker with pid: 10
+2019-10-23T23:47:16.842032+00:00 app[web.1]: [2019-10-23 23:47:16 +0000] [10] [ERROR] Exception in worker process
+2019-10-23T23:47:16.842035+00:00 app[web.1]: Traceback (most recent call last):
+2019-10-23T23:47:16.842038+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+2019-10-23T23:47:16.84204+00:00 app[web.1]: worker.init_process()
+2019-10-23T23:47:16.842042+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 129, in init_process
+2019-10-23T23:47:16.842044+00:00 app[web.1]: self.load_wsgi()
+2019-10-23T23:47:16.842046+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+2019-10-23T23:47:16.842048+00:00 app[web.1]: self.wsgi = self.app.wsgi()
+2019-10-23T23:47:16.84205+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/base.py", line 67, in wsgi
+2019-10-23T23:47:16.842052+00:00 app[web.1]: self.callable = self.load()
+2019-10-23T23:47:16.842054+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+2019-10-23T23:47:16.842056+00:00 app[web.1]: return self.load_wsgiapp()
+2019-10-23T23:47:16.842057+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+2019-10-23T23:47:16.842059+00:00 app[web.1]: return util.import_app(self.app_uri)
