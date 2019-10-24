@@ -10,6 +10,8 @@ var currentStorm;       // object that holds the current storm track being displ
 var hoverLayer;         // leaflet layer that highlights the storm when you hover over the storm list
 var maxStrength = new Object();  // stores the max stregths for the current list of storms
 
+var www_addr = "http://127.0.0.1:5000/"
+//var www_addr = "https://demo-hurricanes-app.herokuapp.com/"
 
 
 function retiredStorms() {
@@ -23,7 +25,7 @@ function retiredStorms() {
   
 
 //  get storm data from flask server
- d3.json(`http://127.0.0.1:5000/retired/${name}`).then(function(data) {
+ d3.json(`${www_addr}${name}`).then(function(data) {
    plotStorm(data,name,2)  // plot storm track... this functio also will plot the storm observations
 
   })
@@ -329,7 +331,7 @@ var selectorOptions = {
 
 // bring in climatology from flask ... this is computed on server side when
 // server is started to speed things up
-  d3.json("http://127.0.0.1:5000/info").then(function(data) {
+  d3.json(`${www_addr}info`).then(function(data) {
     ts = []  // count of tropical storms per year
     hu = []  // count of hurricanes per year
     years = []  // all years in climatology
@@ -529,7 +531,8 @@ function plotYear() {
  
 
 //  This is the main loop that gets the data from flask for the given year nad plots each storm track
-  d3.json(`http://127.0.0.1:5000/getYear/${year}`)
+//  d3.json(`http://127.0.0.1:5000/getYear/${year}`)
+  d3.json(`${www_addr}${year}`)
   .then(function(data) {
      
       var tracks = []  // array that holds all the storm tracks for the year
