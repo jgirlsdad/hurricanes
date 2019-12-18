@@ -10,8 +10,8 @@ var currentStorm;       // object that holds the current storm track being displ
 var hoverLayer;         // leaflet layer that highlights the storm when you hover over the storm list
 var maxStrength = new Object();  // stores the max stregths for the current list of storms
 
-var www_addr = "http://127.0.0.1:5000/"
-//var www_addr = "https://demo-hurricanes-app.herokuapp.com/"
+//var www_addr = "http://127.0.0.1:5000/"
+var www_addr = "https://demo-hurricanes-app.herokuapp.com/"
 
 
 function retiredStorms() {
