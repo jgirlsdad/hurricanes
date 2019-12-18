@@ -25,7 +25,7 @@ function retiredStorms() {
   
 
 //  get storm data from flask server
- d3.json(`${www_addr}${name}`).then(function(data) {
+ d3.json(`${www_addr}retired/${name}`).then(function(data) {
    plotStorm(data,name,2)  // plot storm track... this functio also will plot the storm observations
 
   })
