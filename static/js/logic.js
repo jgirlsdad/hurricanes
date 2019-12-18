@@ -532,7 +532,7 @@ function plotYear() {
 
 //  This is the main loop that gets the data from flask for the given year nad plots each storm track
 //  d3.json(`http://127.0.0.1:5000/getYear/${year}`)
-  d3.json(`${www_addr}${year}`)
+  d3.json(`${www_addr}getYear/${year}`)
   .then(function(data) {
      
       var tracks = []  // array that holds all the storm tracks for the year
