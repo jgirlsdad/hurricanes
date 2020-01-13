@@ -7,7 +7,7 @@ app = Flask(__name__)
 cors = CORS(app)
 
 
-client = pymongo.MongoClient("mongodb+srv://jgirlsdad:444jayla@cluster0-dgjk9.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://jgirlsdad:@cluster0-dgjk9.mongodb.net/test?retryWrites=true&w=majority")
 mydb = client.hurricanes
 mycol = mydb["tracks"]
 
